@@ -29,11 +29,12 @@ import { Image } from "@astrojs/image/components";
     <ul class="grow shrink">
       <!-- Sidebar content here -->
       <li><a id="home" href="/">Home</a></li>
+      <li><a id="blog" href="/blog/">Blog</a></li>
       <li><a id="code" href="/code">Code</a></li>
       <li><a id="music" href="/music">Music</a></li>
+      <li><a id="live" href="/live">Live Shows</a></li>
       <!-- <li><a id="services" href="/services">Services</a></li> -->
       <!-- <li><a id="store" href="/store">Store</a></li> -->
-      <li><a id="blog" href="/blog/">Blog</a></li>
       <li><a id="cv" href="/cv">CV</a></li>
       <!-- <li><a href="mailto:mattdholloway@pm.me">Contact</a></li> -->
     </ul>
@@ -83,6 +84,7 @@ import { Image } from "@astrojs/image/components";
   const homeLink = document.getElementById("home");
   const codeLink = document.getElementById("code");
   const musicLink = document.getElementById("music");
+  const liveLink = document.getElementById("live");
   const blogLink = document.getElementById("blog");
   const cvLink = document.getElementById("cv");
 
@@ -90,7 +92,7 @@ import { Image } from "@astrojs/image/components";
 
   const url = window.location.href;
 
-  const pages = [codeLink, musicLink, blogLink, cvLink];
+  const pages = [codeLink, musicLink, liveLink, blogLink, cvLink];
 
   const activeClass = "bg-base-300"; // For primary color replace with `active` class
 

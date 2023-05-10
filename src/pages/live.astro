@@ -1,0 +1,37 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HorizontalCard from "../components/HorizontalCard.astro";
+---
+
+<BaseLayout title = "Live Shows">
+  <div>
+    <div class="text-3xl w-full font-bold mb-5">Live Shows</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    Links below will lead to recordings if available
+  </div>
+
+<HorizontalCard
+  title="Non-Commestible Sound Product #1"
+  img="https://scontent-lhr8-1.xx.fbcdn.net/v/t39.30808-6/329372124_862233198191053_1729944974501297789_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=JChivEf2VWoAX-WXPrP&_nc_ht=scontent-lhr8-1.xx&oh=00_AfANso1F-0WA4G3fLz4JI_vSuPLPN5mJ_Xeh42tX34pUAQ&oe=6460F6BE"
+/>
+<div class="divider my-0"></div>
+<HorizontalCard
+  title="Ursonate Concert Series - 4th Edition"
+  img="https://f4.bcbits.com/img/a1009362185_10.jpg"
+  desc="Featuring 200M2000, product.metropolis, Kinn and Lou Terry"
+  url="https://ursonate.bandcamp.com/album/ursonate-concert-series-4th-edition"
+  badge="RECORDING AVAILABLE"
+/>
+<br>
+<div class="divider my-0"></div>
+<HorizontalCard
+  title="Ursonate Concert Series - 3rd Edition"
+  img="https://f4.bcbits.com/img/a1562676097_10.jpg"
+  desc="Featuring 200M2000, ramilda & lonelybindi, iamabsolutelyterrible and Crimson Chaos"
+  url="https://ursonate.bandcamp.com/album/ursonate-concert-series-3rd-edition"
+  badge="RECORDING AVAILABLE"
+/>
+
+</BaseLayout>
