@@ -22,6 +22,7 @@
     "sharp": "^0.31.3"
   },
   "devDependencies": {
+    "@astrojs/partytown": "^1.2.1",
     "@tailwindcss/typography": "^0.5.7"
   }
 }

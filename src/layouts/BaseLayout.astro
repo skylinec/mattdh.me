@@ -10,6 +10,17 @@ const { image, title = SITE_TITLE, description = SITE_DESCRIPTION, includeSideba
 ---
 
 <!DOCTYPE html>
+<!-- Google tag (gtag.js) -->
+<script 
+type="text/partytown" 
+src="https://www.googletagmanager.com/gtag/js?id=G-CFD7GHK71E"></script>
+<script type="text/partytown">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CFD7GHK71E');
+</script>
 <html lang="en" data-theme="black">
   <head>
     <BaseHead title={title} description={description} image={image} />
